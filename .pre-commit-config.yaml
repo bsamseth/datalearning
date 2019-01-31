@@ -11,3 +11,8 @@ repos:
   - id: trailing-whitespace
     args: [--markdown-linebreak-ext=md]
   - id: check-yaml
+
+- repo: https://gist.github.com/bsamseth/0abbcee0655e8023abc63c2c2b27c122
+  rev: cda1f2c05d24849f19a28f1f4fa760136b4a0552
+  hooks:
+  - id: build-doc
